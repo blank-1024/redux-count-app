@@ -11,8 +11,6 @@ import {connect} from 'react-redux'
 //定义UI组件
 class Count extends Component {
 
-	state = {carName:'奔驰c63'}
-
 	//加法
 	increment = ()=>{
 		const {value} = this.selectNumber
