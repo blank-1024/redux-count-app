@@ -35,7 +35,6 @@ class Count extends Component {
 	}
 
 	render() {
-		//console.log('UI组件接收到的props是',this.props);
 		return (
 			<div>
 				<h1>当前求和为：{this.props.count}</h1>
